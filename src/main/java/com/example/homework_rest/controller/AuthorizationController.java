@@ -22,5 +22,4 @@ public class AuthorizationController {
                                             @RequestParam("password") String password) {
         return service.getAuthorities(user, password);
     }
-
 }
